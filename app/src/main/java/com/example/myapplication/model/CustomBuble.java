@@ -1,5 +1,7 @@
 package com.example.myapplication.model;
 
+import android.widget.Toast;
+
 public class CustomBuble {
 
 
@@ -16,7 +18,7 @@ public class CustomBuble {
 
 
         numBuble += ADD_BUBLE;
-        
+
 
     }
 
