@@ -39,7 +39,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void addClick(View view) {
-        Toast.makeText(this, "hell", Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, "hellooo", Toast.LENGTH_SHORT).show();
         buble.addBuble();
         updateUI();
 
