@@ -19,7 +19,7 @@ public class Reverse extends AppCompatActivity {
         setContentView(R.layout.activity_reverse);
 
 
-        customBuble = new CustomBuble();
+        customBuble =  CustomBuble.getInstance();
         updateUI();
 
     }
