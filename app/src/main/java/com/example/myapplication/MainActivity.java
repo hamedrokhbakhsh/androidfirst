@@ -9,6 +9,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.example.myapplication.model.CustomBuble;
+import com.example.myapplication.ui.login.LoginActivity;
 
 import java.util.Locale;
 
@@ -49,5 +50,9 @@ public class MainActivity extends AppCompatActivity {
 
         super.onResume();
         updateUI();
+    }
+
+    public void login(View view) {
+        startActivity(new Intent(this , LoginActivity.class));
     }
 }
